@@ -1,0 +1,129 @@
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f4f4f9;
+    color: #333;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  main {
+    margin-top: 50px;
+  }
+  
+  
+  .search-form {
+    margin: 20px 0;
+    padding: 10px;
+    width: 400px;
+    border-radius: 5px;
+    border: 2px solid #78aafa;
+    font-family: 'Oxygen Mono', monospace;
+    font-size: 14px;
+    background-color: #fff;
+  }
+  
+  button {
+    display: inline-block;
+    border: 2px solid #78aafa;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: 'Oxygen Mono', monospace;
+    font-size: 14px;
+    background-color: #78aafa;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #6998e3;
+  }
+  
+  .city-title {
+    max-width: 300px;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .main-card {
+    padding: 20px;
+  }
+  
+  .temp-title {
+    font-size: 120px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+  }
+  
+  .todays-info {
+    margin: 15px 0;
+    text-align: center;
+  }
+  
+  .side-info {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .search-card{
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .small-card {
+    margin: 10px;
+    padding: 10px;
+    background-color: #e7e7e7;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  p,
+  ul {
+    font-family: 'Oxygen Mono', monospace;
+    font-size: 16px;
+  }
+  
+  li {
+    list-style: none;
+    padding: 5px 0;
+  }
+  
+  .week-forecast {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .weather {
+    margin-top: 2px;
+    margin-bottom: 6px;
+    font-size: 14px;
+  }
+  
+  h2 {
+    font-size: 48px;
+  }
+  
+  h3 {
+    font-size: 22px;
+    margin-bottom: -18px;
+  }
+  
+  span {
+    font-size: 20px;
+  }
